@@ -1,4 +1,4 @@
-#Faille Web : LFI : Local File Inclusion
+# Faille Web : LFI : Local File Inclusion
 
 L’objet de l’attaque, comme son nom l’indique, est d’inclure un fichier local . 
 L’intérêt est multiple :
@@ -11,7 +11,7 @@ Cette faille est appelée ainsi car elle est en rapport avec le nom de la foncti
 
 Explication en pratique :
 
-##1.DETECTION
+## 1.DETECTION
 
 Si je tape cette url :
 
@@ -28,7 +28,7 @@ Les erreurs pouvant être affichées par PHP pourraient être les suivantes :
 Si cette erreur est affichée, la faille est avérée.
 
 
-##2. ANGLE D'ATTAQUE
+## 2. ANGLE D'ATTAQUE
 
 __La LFI Basique :__
 
