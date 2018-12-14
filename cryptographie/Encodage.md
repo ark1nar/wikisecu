@@ -35,7 +35,7 @@ Caractéristiques :
 -.-. . -.-. .. / . ... - / ..- -. / - . ... -
 </code>
 
-Pour le decoder le site : [[http://www.dcode.fr/code-morse]]
+Pour le decoder le site : <http://www.dcode.fr/code-morse>
 
 __UUencode :__
 
