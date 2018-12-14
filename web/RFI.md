@@ -1,6 +1,6 @@
 # Remote File Inclusion : RFI 
 
-##1.Presentation 
+## 1.Presentation 
 
 Explication de la faille + fonctionnement du logiciel
 
@@ -38,7 +38,7 @@ Warning: include(test.php): failed to open stream: No such file or directory in 
 Warning: include(): Failed opening 'test.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /test/index.php on line 18 
 
 ```
-##2.Exploitation
+## 2.Exploitation
 
 
 Le but de l'exploitation est d'inclure un fichier distant sur le serveur.

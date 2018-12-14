@@ -23,8 +23,9 @@ Si je tape cette url :
 Si le script plante, c’est que l’application est très probablement vulnérable ou que le paramètre est filtré.
 
 Les erreurs pouvant être affichées par PHP pourraient être les suivantes :
-//“failed to open stream: No such file or directory”//
-
+```
+“failed to open stream: No such file or directory”
+```
 Si cette erreur est affichée, la faille est avérée.
 
 
@@ -43,7 +44,9 @@ Le contenu de la page password s'affichera sous vos yeux.
 __La LFI avec du Null Byte__
 
 Il arrive parfois que les personnes qui développent les sites utilisent la fonction include comme ceci :
-//include($page . “.html”);//
+```PHP
+include($page . “.html”);
+```
 
 Ce qui à pour but d'ajouter une extension .html automatiquement à la fin du fichier inclus.
 
