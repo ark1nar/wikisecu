@@ -42,7 +42,7 @@ Le fichier que nous uploaderons : exploit.php
 Dans notre exploitation le formulaire n'acceptera que les fichiers en .pdf et en .doc
 
 
-__Première méthode : La double extension__
+### Première méthode : La double extension
 
 Le but est de rajouter une deuxième extension pour passer la validation.
 
@@ -53,17 +53,18 @@ Quand nous visualiserons notre fichier sur le serveur nous pourrons voir :
 ``` Best Hacker ```
 
 
-__Deuxième méthode : Mime type__
+### Deuxième méthode : Mime type
 
 MIME est un identifiant de format de données sur internet en deux parties. 
 
 exemple : 
 
-image/jpeg pour les photos en jpeg
+* image/jpeg pour les photos en jpeg
 
-text/csv pour les fichiers en csv
+* text/csv pour les fichiers en csv
 
 Il en existe une multitude que vous pourrez trouver ici : <http://www.freeformatter.com/mime-types-list.html>
+
 Certains développeurs pensent que la validation du fichier peut se réaliser par une simple comparaison du type MIME. FAUX !
 
 Il faut modifier les paramètre envoyé en POST au serveur :
@@ -87,7 +88,7 @@ Il suffit donc de modifier
 Cela fera croire au serveur qu'il reçoit un fichier .doc au lieu du fichier .php.
 
 
-__Troisième méthode : Le null byte__
+### Troisième méthode : Le null byte
 
 Le null byte est un caractère qui signifie la fin de chaîne.
 C'est une notion utilisé en C. Le PHP étant écrit en C il fait fasse au même problèmes.
