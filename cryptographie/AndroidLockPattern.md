@@ -51,7 +51,7 @@ __Deuxième méthode : Bruteforce__
 Le bruteforce dans ce cas est une solution envisageable du fait du faible nombre de combinaisons
 
 
-Sur github un utilitaire à été développé pour cela : [Crack Android lock pattern](https://github.com/sch3m4/androidpatternlock)
+Sur github un utilitaire a été développé pour cela : [Crack Android lock pattern](https://github.com/sch3m4/androidpatternlock)
 
 Son utilisation :
 
